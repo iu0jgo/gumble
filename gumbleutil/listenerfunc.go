@@ -1,7 +1,7 @@
 package gumbleutil
 
 import (
-	"layeh.com/gumble/gumble"
+	"github.com/iu0jgo/gumble/gumble"
 )
 
 // ListenerFunc is a single listener function that implements the
@@ -9,17 +9,18 @@ import (
 // type-switch for handling the different event types.
 //
 // Example:
-//  handler := func(e interface{}) {
-//    switch e.(type) {
-//    case *gumble.ConnectEvent:
-//      println("Connected")
-//    case *gumble.DisconnectEvent:
-//      println("Disconnected")
-//    // ...
-//    }
-//  }
 //
-//  client.Attach(gumbleutil.ListenerFunc(handler))
+//	handler := func(e interface{}) {
+//	  switch e.(type) {
+//	  case *gumble.ConnectEvent:
+//	    println("Connected")
+//	  case *gumble.DisconnectEvent:
+//	    println("Disconnected")
+//	  // ...
+//	  }
+//	}
+//
+//	client.Attach(gumbleutil.ListenerFunc(handler))
 type ListenerFunc func(e interface{})
 
 var _ gumble.EventListener = ListenerFunc(nil)

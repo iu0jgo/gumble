@@ -1,6 +1,6 @@
-github.com/dchote/go-openal v0.0.0-20171116030048-f4a9a141d372 h1:tz3KnXWtRZR0RWOfcMNOw+HHezWLQa7vfSOWTtKjchI=
-github.com/dchote/go-openal v0.0.0-20171116030048-f4a9a141d372/go.mod h1:74z+CYu2/mx4N+mcIS/rsvfAxBPBV9uv8zRAnwyFkdI=
 github.com/golang/protobuf v1.3.1 h1:YF8+flBXS5eO826T4nzqPrxfhQThhXl0YzfuUPu4SBg=
 github.com/golang/protobuf v1.3.1/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
-layeh.com/gopus v0.0.0-20161224163843-0ebf989153aa h1:WNU4LYsgD2UHxgKgB36mL6iMAMOvr127alafSlgBbiA=
-layeh.com/gopus v0.0.0-20161224163843-0ebf989153aa/go.mod h1:AOef7vHz0+v4sWwJnr0jSyHiX/1NgsMoaxl+rEPz/I0=
+github.com/iu0jgo/go-openal v0.0.0-20240903224534-a1fb44d669e1 h1:TQ9Qgs//0c8Oy1RdSCBlY3gdwiydIKUdRJsvOslLOgE=
+github.com/iu0jgo/go-openal v0.0.0-20240903224534-a1fb44d669e1/go.mod h1:of0uCkzEAwtAPHKA8+PzdO9JYKO0E6K0hahz9ebIANo=
+github.com/iu0jgo/gopus v0.0.0-20240903223416-47267cfc2038 h1:3MZ5HUkCkVcrm/ge/bM8aPYg9D0uYRNQIzHbB5bcaKY=
+github.com/iu0jgo/gopus v0.0.0-20240903223416-47267cfc2038/go.mod h1:UaZ5yJi4lj13BjMR38pTp9Id8lDrUhNcb4MGiVUyPNc=

@@ -1,9 +1,9 @@
-module layeh.com/gumble
+module github.com/iu0jgo/gumble
 
-go 1.12
+go 1.22
 
 require (
-	github.com/dchote/go-openal v0.0.0-20171116030048-f4a9a141d372
 	github.com/golang/protobuf v1.3.1
-	layeh.com/gopus v0.0.0-20161224163843-0ebf989153aa
+	github.com/iu0jgo/go-openal v0.0.0-20240903224534-a1fb44d669e1
+	github.com/iu0jgo/gopus v0.0.0-20240903223416-47267cfc2038
 )

@@ -6,10 +6,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"layeh.com/gumble/gumble"
-	"layeh.com/gumble/gumbleffmpeg"
-	"layeh.com/gumble/gumbleutil"
-	_ "layeh.com/gumble/opus"
+	"github.com/iu0jgo/gumble/gumble"
+	"github.com/iu0jgo/gumble/gumbleffmpeg"
+	"github.com/iu0jgo/gumble/gumbleutil"
+	_ "github.com/iu0jgo/gumble/opus"
 )
 
 func main() {
