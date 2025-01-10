@@ -33,7 +33,7 @@ type Stream struct {
 	outgoing chan<- gumble.AudioBuffer
 }
 
-func New(client *gumble.Client) (*Stream, error) {
+func New(client *gumble.Client, playbackDeviceName, captureDeviceName string) (*Stream, error) {
 	s := &Stream{
 		client:          client,
 		sourceFrameSize: client.Config.AudioFrameSize(),
@@ -46,7 +46,7 @@ func New(client *gumble.Client) (*Stream, error) {
 	s.malgoContext = mc
 
 	// Move to config
-	playbackDeviceName := "Plantronics Blackwire 3225 Series"
+	//playbackDeviceName := "Plantronics Blackwire 3225 Series"
 
 	s.SetupDevice(malgo.Playback, playbackDeviceName, func(pOutputSample, pInputSamples []byte, framecount uint32) {
 
@@ -62,7 +62,7 @@ func New(client *gumble.Client) (*Stream, error) {
 	})
 
 	// Move to config
-	captureDeviceName := "Plantronics Blackwire 3225 Series"
+	//captureDeviceName := "Plantronics Blackwire 3225 Series"
 
 	s.SetupDevice(malgo.Capture, captureDeviceName, s.sourceRoutine)
 
